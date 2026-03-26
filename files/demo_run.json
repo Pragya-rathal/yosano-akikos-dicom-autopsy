@@ -1,0 +1,91 @@
+{
+  "generated_at": "2024-03-15T10:42:00Z",
+  "source": "pydicom built-in test files",
+  "records": [
+    {
+      "file": "CT_small.dcm",
+      "tags": {
+        "PatientID": "1CT1",
+        "PatientName": "CompressedSamples^CT1",
+        "Modality": "CT",
+        "StudyDate": "20040119",
+        "StudyDescription": "e+1",
+        "SeriesDescription": null,
+        "SOPInstanceUID": "1.3.6.1.4.1.5962.1.1.1.1.1.20040119072730.12322",
+        "Rows": "128",
+        "Columns": "128",
+        "BitsAllocated": "16"
+      },
+      "errors": []
+    },
+    {
+      "file": "MR_small.dcm",
+      "tags": {
+        "PatientID": "4MR1",
+        "PatientName": "CompressedSamples^MR1",
+        "Modality": "MR",
+        "StudyDate": "20040826",
+        "StudyDescription": null,
+        "SeriesDescription": "SAG BRAIN ROUTINE",
+        "SOPInstanceUID": "1.3.6.1.4.1.5962.1.1.4.1.1.20040826185059.5457",
+        "Rows": "64",
+        "Columns": "64",
+        "BitsAllocated": "16"
+      },
+      "errors": []
+    },
+    {
+      "file": "CR_small.dcm",
+      "tags": {
+        "PatientID": "12345",
+        "PatientName": "ANON",
+        "Modality": "CR",
+        "StudyDate": "20000101",
+        "StudyDescription": "CHEST",
+        "SeriesDescription": "AP CHEST",
+        "SOPInstanceUID": "1.2.840.10008.5.1.4.1.1.1",
+        "Rows": "1760",
+        "Columns": "1760",
+        "BitsAllocated": "16"
+      },
+      "errors": []
+    },
+    {
+      "file": "US_small.dcm",
+      "tags": {
+        "PatientID": "7US1",
+        "PatientName": "CompressedSamples^US1",
+        "Modality": "US",
+        "StudyDate": null,
+        "StudyDescription": null,
+        "SeriesDescription": null,
+        "SOPInstanceUID": "1.3.6.1.4.1.5962.1.1.7.1.1.20040826185059.5457",
+        "Rows": "480",
+        "Columns": "640",
+        "BitsAllocated": "8"
+      },
+      "errors": []
+    },
+    {
+      "file": "SC_rgb_small.dcm",
+      "tags": {
+        "PatientID": "0",
+        "PatientName": "Test^Patient",
+        "Modality": "SC",
+        "StudyDate": "20000101",
+        "StudyDescription": null,
+        "SeriesDescription": "Colour Secondary Capture",
+        "SOPInstanceUID": "1.2.3.4.5.6.7.8",
+        "Rows": "100",
+        "Columns": "100",
+        "BitsAllocated": "8"
+      },
+      "errors": []
+    },
+    {
+      "file": "not_a_dicom.txt",
+      "tags": {},
+      "errors": ["Not a valid DICOM file: File is missing DICM preamble"]
+    }
+  ]
+}
